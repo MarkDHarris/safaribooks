@@ -79,7 +79,7 @@ class Namespace:
 if __name__ == "__main__":
 
     # copy the cookies file that was manually copied into the cookies file passed into the container
-    starting_cookies = unwrap_cookies("./resources/cookies.json")
+    starting_cookies = unwrap_cookies("./resources/sample_cookies.json")
     write_cookies_to_file(starting_cookies, "./resources/cookies.json")
 
     # read the book list file passed into the container and download each book
